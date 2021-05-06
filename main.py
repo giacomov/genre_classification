@@ -23,6 +23,7 @@ def go(config: DictConfig):
 
         steps_to_execute = list(config["main"]["execute_steps"])
 
+        
     # Download step
     if "download" in steps_to_execute:
 
